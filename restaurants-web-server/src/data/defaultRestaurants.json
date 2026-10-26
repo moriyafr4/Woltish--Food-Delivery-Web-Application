@@ -1,0 +1,152 @@
+[
+    {
+        "name": "Burger Palace",
+        "description": "Juicy handcrafted burgers made fresh daily.",
+        "address": "Rothschild 12, Tel Aviv",
+        "phone": "03-1234567",
+        "category": "Burgers",
+        "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80",
+        "products": [
+            { "name": "Classic Burger", "price": 45, "description": "Beef patty, lettuce, tomato, pickles" },
+            { "name": "Cheese Burger", "price": 52, "description": "With cheddar and caramelized onions" },
+            { "name": "Veggie Burger", "price": 48, "description": "Plant-based patty with avocado" },
+            { "name": "Fries", "price": 18, "description": "Crispy golden fries" },
+            { "name": "Onion Rings", "price": 22, "description": "Beer-battered onion rings" }
+        ]
+    },
+    {
+        "name": "Pizza Roma",
+        "description": "Authentic Italian pizza baked in a wood-fired oven.",
+        "address": "Ben Yehuda 45, Tel Aviv",
+        "phone": "03-2345678",
+        "category": "Pizza",
+        "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80",
+        "products": [
+            { "name": "Margherita", "price": 58, "description": "Tomato sauce, mozzarella, basil" },
+            { "name": "Pepperoni", "price": 68, "description": "Spicy pepperoni with mozzarella" },
+            { "name": "Quattro Formaggi", "price": 72, "description": "Four cheese blend" },
+            { "name": "Funghi", "price": 65, "description": "Mushrooms, garlic, mozzarella" },
+            { "name": "Tiramisu", "price": 32, "description": "Classic Italian dessert" }
+        ]
+    },
+    {
+        "name": "Sushi Garden",
+        "description": "Fresh sushi and Japanese cuisine in the heart of the city.",
+        "address": "Dizengoff 88, Tel Aviv",
+        "phone": "03-3456789",
+        "category": "Sushi",
+        "imageUrl": "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=800&q=80",
+        "products": [
+            { "name": "Salmon Roll (8 pcs)", "price": 52, "description": "Fresh salmon and avocado" },
+            { "name": "Tuna Nigiri (2 pcs)", "price": 38, "description": "Premium bluefin tuna" },
+            { "name": "Dragon Roll", "price": 68, "description": "Shrimp tempura, avocado top" },
+            { "name": "Edamame", "price": 18, "description": "Salted steamed soybeans" },
+            { "name": "Miso Soup", "price": 15, "description": "Traditional Japanese miso" }
+        ]
+    },
+    {
+        "name": "Trattoria Bella",
+        "description": "Homestyle Italian cooking with fresh pasta and classic sauces.",
+        "address": "Frishman 15, Tel Aviv",
+        "phone": "03-5678901",
+        "category": "Italian",
+        "imageUrl": "https://d3o5sihylz93ps.cloudfront.net/wp-content/uploads/sites/5/2021/01/13043234/unnamed-scaled.jpg",
+        "products": [
+            { "name": "Spaghetti Carbonara", "price": 62, "description": "Egg, pancetta, pecorino romano" },
+            { "name": "Penne Arrabbiata", "price": 55, "description": "Spicy tomato sauce with garlic" },
+            { "name": "Lasagne", "price": 68, "description": "Classic beef and béchamel layers" },
+            { "name": "Bruschetta", "price": 28, "description": "Toasted bread with tomatoes and basil" },
+            { "name": "Panna Cotta", "price": 32, "description": "Vanilla cream with berry coulis" }
+        ]
+    },
+    {
+        "name": "Mexican Fiesta",
+        "description": "Spicy and vibrant Mexican street food.",
+        "address": "Allenby 110, Tel Aviv",
+        "phone": "03-8889999",
+        "category": "Mexican",
+        "imageUrl": "https://images.unsplash.com/photo-1564834724105-918b73d1b9e0?auto=format&fit=crop&w=800&q=80",
+        "products": [
+            { "name": "Chicken Tacos (3 pcs)", "price": 45, "description": "Corn tortillas, grilled chicken, salsa verde" },
+            { "name": "Beef Burrito", "price": 55, "description": "Rice, beans, pulled beef, guacamole" },
+            { "name": "Nachos Supreme", "price": 42, "description": "Cheese, jalapeños, sour cream, pico de gallo" },
+            { "name": "Quesadilla", "price": 48, "description": "Melted cheese and chicken in flour tortilla" },
+            { "name": "Churros", "price": 28, "description": "Fried dough pastry with chocolate dip" }
+        ]
+    },
+    {
+        "name": "Vegan Delights",
+        "description": "100% plant-based healthy bowls and smoothies.",
+        "address": "Gordon 32, Tel Aviv",
+        "phone": "03-7776666",
+        "category": "Vegan",
+        "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
+        "products": [
+            { "name": "Acai Bowl", "price": 48, "description": "Acai blend topped with granola and fresh fruit" },
+            { "name": "Buddha Bowl", "price": 54, "description": "Quinoa, sweet potato, kale, tahini dressing" },
+            { "name": "Avocado Toast", "price": 42, "description": "Sourdough bread, mashed avocado, chili flakes" },
+            { "name": "Green Smoothie", "price": 28, "description": "Spinach, banana, apple, almond milk" },
+            { "name": "Vegan Brownie", "price": 24, "description": "Rich chocolate brownie, dairy-free" }
+        ]
+    },
+    {
+        "name": "Thai Orchid",
+        "description": "Authentic flavors from the streets of Bangkok.",
+        "address": "Bograshov 55, Tel Aviv",
+        "phone": "03-5554444",
+        "category": "Thai",
+        "imageUrl": "https://images.unsplash.com/photo-1559314809-0d155014e29e?auto=format&fit=crop&w=800&q=80",
+        "products": [
+            { "name": "Pad Thai", "price": 58, "description": "Rice noodles, tofu, egg, peanuts, bean sprouts" },
+            { "name": "Green Curry", "price": 62, "description": "Chicken in spicy green curry with coconut milk" },
+            { "name": "Tom Yum Soup", "price": 45, "description": "Hot and sour soup with shrimp" },
+            { "name": "Papaya Salad", "price": 38, "description": "Spicy green papaya, tomatoes, peanuts" },
+            { "name": "Mango Sticky Rice", "price": 32, "description": "Sweet sticky rice with fresh mango" }
+        ]
+    },
+    {
+        "name": "Shawarma King",
+        "description": "The best street food in town, packed with flavor.",
+        "address": "King George 12, Tel Aviv",
+        "phone": "03-4443333",
+        "category": "Street Food",
+        "imageUrl": "https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=800&q=80",
+        "products": [
+            { "name": "Shawarma in Pita", "price": 42, "description": "Turkey shawarma with hummus and salads" },
+            { "name": "Shawarma in Lafa", "price": 48, "description": "Extra meat wrapped in a large flatbread" },
+            { "name": "Falafel Plate", "price": 35, "description": "10 falafel balls, hummus, tahini, salad" },
+            { "name": "Hummus Full", "price": 30, "description": "Hummus with warm fava beans" },
+            { "name": "French Fries", "price": 18, "description": "Classic crispy fries" }
+        ]
+    },
+    {
+        "name": "Steakhouse 99",
+        "description": "Premium cuts of meat grilled to perfection.",
+        "address": "Yarkon 99, Tel Aviv",
+        "phone": "03-3332222",
+        "category": "Meat",
+        "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+        "products": [
+            { "name": "Ribeye Steak (300g)", "price": 140, "description": "Premium ribeye served with roasted potatoes" },
+            { "name": "Filet Mignon (200g)", "price": 160, "description": "Tender filet with red wine reduction" },
+            { "name": "Lamb Chops", "price": 130, "description": "Grilled lamb chops with mint sauce" },
+            { "name": "Caesar Salad", "price": 45, "description": "Romaine lettuce, croutons, parmesan" },
+            { "name": "Mashed Potatoes", "price": 25, "description": "Creamy buttery mashed potatoes" }
+        ]
+    },
+    {
+        "name": "Sweet Tooth Bakery",
+        "description": "Artisanal pastries, cakes, and specialty coffee.",
+        "address": "Shabazi 22, Tel Aviv",
+        "phone": "03-2221111",
+        "category": "Bakery",
+        "imageUrl": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+        "products": [
+            { "name": "Chocolate Croissant", "price": 18, "description": "Flaky butter pastry filled with dark chocolate" },
+            { "name": "Cheesecake Slice", "price": 32, "description": "New York style cheesecake" },
+            { "name": "Cinnamon Roll", "price": 22, "description": "Warm cinnamon roll with cream cheese frosting" },
+            { "name": "Cappuccino", "price": 14, "description": "Double espresso with steamed milk foam" },
+            { "name": "Macarons (3 pcs)", "price": 24, "description": "Assorted French macarons" }
+        ]
+    }
+]

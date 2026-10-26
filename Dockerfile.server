@@ -1,0 +1,31 @@
+FROM ubuntu:22.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Updating repositories and installing development tools
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    cmake \
+    g++ \
+    libgtest-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Set the working directory
+WORKDIR /app
+
+# Copy CMake files and the specific source directories
+COPY CMakeLists.txt ./
+COPY src/ ./src
+COPY data/ ./data
+COPY tests/ ./tests
+
+# Build the application
+RUN mkdir -p build && cd build && \
+    cmake .. && \
+    make
+
+# Expose the server port
+EXPOSE 8080
+
+# Run the server binary and pass the port as an argument
+CMD ["./build/recommender_app", "8080"]

@@ -1,0 +1,137 @@
+.search-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 25px;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  transition: border 0.2s;
+}
+
+.search-bar:focus-within {
+  border-color: #009de0;
+  background-color: #fff;
+}
+
+.search-icon {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #888;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 16px;
+  color: var(--text-primary);
+}
+
+.search-input::placeholder {
+  color: var(--text-muted);
+}
+
+.clear-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #888;
+  font-size: 16px;
+  padding: 0 5px;
+}
+
+.clear-btn:hover {
+  color: #333;
+}
+
+/* Results List */
+.results-list {
+  margin-top: 10px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: var(--surface-color);
+}
+
+.match-hint {
+    font-size: 12px !important;
+    color: #9ca3af;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.restaurant-card {
+  padding: 12px 15px;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.restaurant-card:last-child {
+  border-bottom: none;
+}
+
+.restaurant-card:hover {
+  background-color: #f9f9f9;
+}
+
+.restaurant-card h3 {
+  margin: 0 0 4px 0;
+  font-size: 16px;
+  color: var(--text-primary);
+}
+
+.restaurant-card p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+/* Highlight */
+.highlight {
+  background-color: #fff3b0;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+/* Messages */
+.loading,
+.no-results,
+.too-short,
+.error {
+  margin-top: 15px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+.loading {
+  color: #009de0;
+  background-color: #e8f7fd;
+}
+
+.no-results {
+  color: #888;
+  background-color: #f5f5f5;
+}
+
+.too-short {
+  color: #f0a500;
+  background-color: #fff8e6;
+}
+
+.error {
+  color: #e63946;
+  background-color: #fdecea;
+}

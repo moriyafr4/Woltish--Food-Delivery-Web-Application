@@ -1,0 +1,217 @@
+.menu-page {
+    min-height: calc(100vh - var(--navbar-height, 72px));
+    background-color: var(--bg-color);
+    padding: 30px 40px;
+}
+
+.back-btn {
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 25px;
+    transition: color 0.2s;
+}
+
+/* Restaurant header view */
+.restaurant-header {
+    margin-bottom: 40px;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    background-color: var(--surface-color);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border-color);
+    backdrop-filter: blur(8px);
+}
+
+.restaurant-banner {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.restaurant-info-card {
+    padding: 25px 30px;
+}
+
+.info-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.restaurant-name {
+    font-size: 2.5rem;
+    color: var(--text-primary);
+    margin: 0;
+    font-weight: 800;
+}
+
+.category-badge {
+    background-color: var(--primary-glow);
+    color: var(--primary-color);
+    padding: 6px 12px;
+    border-radius: var(--radius-full);
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.restaurant-desc {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    margin: 0 0 20px 0;
+    line-height: 1.5;
+    max-width: 800px;
+}
+
+.restaurant-meta {
+    display: flex;
+    gap: 25px;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+    border-top: 1px solid var(--border-color);
+    padding-top: 15px;
+}
+
+.restaurant-meta span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.back-btn:hover {
+    color: var(--primary-hover);
+}
+
+.menu-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.menu-title {
+    font-size: 2.2rem;
+    color: var(--text-primary);
+    margin-bottom: 6px;
+    font-weight: 800;
+}
+
+.menu-subtitle {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    margin-bottom: 35px;
+}
+
+
+.menu-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.menu-card {
+    background-color: var(--surface-color);
+    border-radius: var(--radius-md);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border-color);
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.2s ease, border-color 0.2s;
+    backdrop-filter: blur(8px);
+}
+
+.menu-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-4px);
+    border-color: var(--primary-color);
+}
+
+.menu-card-body {
+    flex-grow: 1;
+    padding-right: 20px;
+}
+
+.product-name {
+    font-size: 1.25rem;
+    color: var(--text-primary);
+    margin: 0 0 6px 0;
+    font-weight: 700;
+}
+
+.product-description {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    margin: 0 0 12px 0;
+    line-height: 1.4;
+}
+
+.product-price {
+    font-size: 1.1rem;
+    color: var(--text-primary);
+    font-weight: 700;
+}
+
+/* Add to cart*/
+.add-to-cart-btn {
+    background-color: var(--primary-glow);
+    color: var(--primary-color);
+    border: none;
+    border-radius: var(--radius-full);
+    padding: 8px 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.add-to-cart-btn:hover {
+    background-color: var(--primary-hover);
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.loading-text, .no-items {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    padding-top: 40px;
+} 
+
+.cart-sidebar {
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    backdrop-filter: blur(12px);
+}
+
+.cart-sidebar h3,
+.cart-sidebar div,
+.cart-sidebar span {
+    color: var(--text-primary);
+}
+
+.cart-sidebar hr {
+    border-color: var(--border-color);
+}
+
+.cart-item-controls button {
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    transition: background-color 0.2s;
+}
+
+.cart-item-controls button:hover {
+    background-color: var(--border-color);
+}
